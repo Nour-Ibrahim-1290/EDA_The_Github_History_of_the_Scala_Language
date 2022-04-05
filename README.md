@@ -9,6 +9,21 @@ This project is part of [Data Scientist with Python](https://app.datacamp.com/le
 * pull_files.csv contains the files that were modified by each pull request.
 * pulls.csv: contains the ids and names of the individuals who made the pull requests.
 
+## EDA Steps:
+1. Starting with appending data from pulls_2011_2013.csv as pulls_one and pulls_2014_2018 as pulls_two into pulls.
+2. Then, Merging pulls from step1 and pull_files.csv as pull_files into data.
+3. Figuring out whether the development of Scala is still active on GitHub.
+
+![BarChart01](https://github.com/Nour-Ibrahim-1290/EDA_The_Github_History_of_the_Scala_Language/blob/main/Scala-History-GitHub-BarChart.PNG?raw=true)
+
+4. Tracking what files has been changed recently.
+5. Who contributed the most on the development process (most pull requests).
+6. Who made the last 10 pull requests on a specific file.
+7. The pull requests History of 2 Special Developers.
+8. Visualing the contribution of both ['xeno-by', 'soc'].
+
+![BarChart01](https://github.com/Nour-Ibrahim-1290/EDA_The_Github_History_of_the_Scala_Language/blob/main/Scala-History-GitHub-BarChart02.PNG?raw=true)
+
 ## Using these Python Libraries:
 * [Pandas](https://pandas.pydata.org/docs/)
 * [Matplotlib.pyplot](https://matplotlib.org/stable/users/index.html)
